@@ -4,128 +4,73 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#101827">
-<title>歷史段考練習｜翰林九上 L3–L4</title>
+<title>歷屆歷史題｜翰林九上第三、四章</title>
 <style>
-:root{color-scheme:dark;--bg:#0b1220;--panel:#121d30;--panel2:#18263c;--line:#2b3b55;--text:#edf3ff;--muted:#a8b7cf;--blue:#7db5ff;--green:#7ee0b0;--red:#ff9b9b}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#182a46 0,#0b1220 55%);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Noto Sans TC",sans-serif}
-header{padding:34px 18px 24px;max-width:980px;margin:auto} .eyebrow{color:var(--blue);font-size:.85rem;letter-spacing:.12em;font-weight:800}
-h1{font-size:clamp(1.8rem,5vw,2.8rem);line-height:1.2;margin:.5rem 0}.sub{color:var(--muted);margin:0}
-main{max-width:980px;margin:auto;padding:0 16px 50px}.panel{background:rgba(18,29,48,.94);border:1px solid var(--line);border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 14px 36px #0003}
-.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.toolbar label{color:var(--muted);font-size:.9rem}
-select,button{font:inherit;border-radius:11px;border:1px solid var(--line);padding:10px 13px;background:var(--panel2);color:var(--text)}
-button{cursor:pointer;font-weight:750}button.primary{background:#2563a9;border-color:#438bd6}button:disabled{opacity:.4;cursor:not-allowed}
-.stats{display:flex;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:.9rem;margin-top:12px}.stat strong{color:var(--text)}
-.progress{height:7px;background:#26364d;border-radius:99px;overflow:hidden;margin-top:14px}.bar{height:100%;background:linear-gradient(90deg,#58a5ff,#78e0b2);width:0;transition:width .2s}
-.qtop{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:.9rem}.tag{border:1px solid #385477;border-radius:99px;padding:3px 9px;color:#b8d7ff}
-h2{font-size:1.2rem;margin:14px 0}.stem{font-size:1.1rem;font-weight:650;white-space:pre-line}
-.options{display:grid;gap:9px;margin:18px 0}.option{display:flex;gap:11px;align-items:flex-start;text-align:left;width:100%;font-weight:500;line-height:1.5}.option .letter{flex:none;width:25px;height:25px;border-radius:7px;background:#293d59;display:grid;place-items:center;font-weight:800}.option.selected{border-color:var(--blue);background:#1c3553}.option.correct{border-color:var(--green);background:#15392f}.option.wrong{border-color:var(--red);background:#43252c}
-.feedback{border-radius:12px;padding:13px;margin:12px 0;background:#1c2b40;border:1px solid var(--line)}.feedback.good{border-color:#3a8b69}.feedback.bad{border-color:#a95c66}
-.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:16px}.muted{color:var(--muted)}.hidden{display:none!important}
-a{color:#9bc8ff}.source-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.source-card{padding:14px;border:1px solid var(--line);border-radius:13px;background:#101a2b}.source-card h3{margin:0 0 6px;font-size:1rem}
-footer{max-width:980px;margin:auto;padding:0 16px 35px;color:var(--muted);font-size:.82rem}
-@media(max-width:520px){.panel{padding:14px}.toolbar>*{width:100%}button{min-height:44px}}
+:root{color-scheme:dark;--bg:#0b1220;--panel:#121d30;--panel2:#18263c;--line:#2b3b55;--text:#edf3ff;--muted:#a8b7cf;--blue:#7db5ff;--green:#7ee0b0;--gold:#ffd58a}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#182a46 0,#0b1220 55%);color:var(--text);font:16px/1.7 system-ui,-apple-system,"Noto Sans TC",sans-serif}
+header,main{max-width:900px;margin:auto}header{padding:30px 18px 18px}.eyebrow{color:var(--blue);font-size:.85rem;letter-spacing:.12em;font-weight:800}h1{font-size:clamp(1.8rem,5vw,2.5rem);line-height:1.2;margin:.5rem 0}.sub{color:var(--muted);margin:0}
+main{padding:0 16px 50px}.panel{background:rgba(18,29,48,.96);border:1px solid var(--line);border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 14px 36px #0003}
+.notice{border-left:4px solid var(--gold);color:var(--muted)}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+button,a.btn{font:inherit;color:var(--text);background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:10px 14px;text-decoration:none;cursor:pointer}
+button.active{background:#24466e;border-color:var(--blue)}.muted{color:var(--muted)}.tag{display:inline-block;border:1px solid #42618a;border-radius:999px;padding:2px 9px;color:var(--blue);font-size:.8rem;margin-right:6px}
+h2{font-size:1.2rem;margin:0 0 10px}.question{border-top:1px solid var(--line);padding:16px 0}.question:first-child{border-top:0}.answer{color:var(--green);font-weight:800}.source{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.small{font-size:.9rem}.hidden{display:none!important}
+footer{color:var(--muted);font-size:.85rem;text-align:center;padding:20px}
 </style>
 </head>
 <body>
-<header>
-<div class="eyebrow">HISTORY • GRADE 9 • HANLIN</div>
-<h1>歷史段考練習</h1>
-<p class="sub">翰林九上第五冊｜第三、四章重點練習</p>
-</header>
+<header><div class="eyebrow">HISTORY EXAM ARCHIVE · 109–114</div><h1>歷屆歷史題</h1><p class="sub">翰林九上第五冊｜第三章「普世宗教的發展」・第四章「近代歐洲的興起」</p></header>
 <main>
+<section class="panel notice"><strong>題目來源說明</strong><br>這個頁面只把已核對過的真實會考題列為「歷屆題」。為避免誤植與著作權問題，這裡提供原卷年度、題號、考點摘要、官方答案與原卷連結；請點原卷查看完整題幹、圖片及選項。未核實的題目不會湊數，也不會把自編題標成歷屆題。</section>
+<div class="toolbar" role="group" aria-label="章節篩選"><button class="active" data-filter="all">全部已核實</button><button data-filter="3">第三章</button><button data-filter="4">第四章</button></div>
 <section class="panel">
-<div class="toolbar">
-<label for="chapter">章節</label>
-<select id="chapter"><option value="all">第三、四章全部</option><option value="3">第三章｜普世宗教的發展</option><option value="4">第四章｜近代歐洲與多元世界</option></select>
-<label for="mode">出題順序</label>
-<select id="mode"><option value="all">依序練習</option><option value="random">隨機抽題</option></select>
-<button class="primary" id="start">開始／重新練習</button>
+<h2>已核實的歷屆題 <span class="tag">2 題</span></h2>
+<div id="questions">
+<article class="question" data-chapter="3">
+<div class="small muted">112 年國中教育會考・社會科第 53 題</div>
+<h3>拜占庭與鄂圖曼帝國的宗教、首都變遷</h3>
+<p>考點摘要：從城市的地理位置、歷史建築與宗教遺產，辨識曾先後作為拜占庭帝國及鄂圖曼帝國首都的城市。</p>
+<p><span class="tag">第三章</span><span class="tag">基督宗教與伊斯蘭世界</span></p>
+<p class="answer">官方答案：D（伊斯坦堡）</p>
+<p class="small muted">判斷關鍵：1453 年鄂圖曼帝國攻陷君士坦丁堡，之後該城逐漸以伊斯坦堡之名為人熟知。</p>
+<div class="source"><a class="btn" href="https://public.ehanlin.com.tw/pre-exam/cap/112%E6%9C%83%E8%80%83%E7%A4%BE%E6%9C%83%E8%A7%A3%E6%9E%90.pdf" target="_blank" rel="noopener">翰林官方解析 PDF</a><a class="btn" href="https://kaonow.com/paper/exam/cap/" target="_blank" rel="noopener">歷屆試題索引</a></div>
+</article>
+<article class="question" data-chapter="4">
+<div class="small muted">114 年國中教育會考・社會科第 10 題</div>
+<h3>宗教改革與馬丁路德的主張</h3>
+<p>考點摘要：根據諷刺教會販售贖罪券的木刻版畫，判斷作者對羅馬教會的批判立場，以及宗教改革所提出的信仰主張。</p>
+<p><span class="tag">第四章</span><span class="tag">宗教改革</span></p>
+<p class="answer">官方答案：B（支持路德教派所提出的因信得救主張）</p>
+<p class="small muted">判斷關鍵：反對以販售贖罪券牟利，並強調信仰與救贖的關係，是宗教改革的重要訴求。</p>
+<div class="source"><a class="btn" href="https://public.ehanlin.com.tw/pre-exam/cap/114%E6%9C%83%E8%80%83%E7%A4%BE%E6%9C%83%E8%A7%A3%E6%9E%90.pdf" target="_blank" rel="noopener">翰林官方解析 PDF</a><a class="btn" href="https://kaonow.com/paper/exam/cap/" target="_blank" rel="noopener">歷屆試題索引</a></div>
+</article>
 </div>
-<div class="stats"><span class="stat">題數 <strong id="total">0</strong></span><span class="stat">已作答 <strong id="done">0</strong></span><span class="stat">答對 <strong id="score">0</strong></span><span class="stat">正確率 <strong id="rate">—</strong></span></div>
-<div class="progress"><div class="bar" id="bar"></div></div>
-</section>
-<section class="panel" id="quiz">
-<div class="qtop"><span id="counter">準備開始</span><span class="tag" id="chapterTag">原創練習題</span></div>
-<h2 class="stem" id="stem">選擇章節與出題方式，按下「開始／重新練習」。</h2>
-<div class="options" id="options"></div>
-<div class="feedback hidden" id="feedback" aria-live="polite"></div>
-<div class="actions"><button class="primary" id="submit" disabled>送出答案</button><button id="next" disabled>下一題</button></div>
+<p id="empty" class="muted hidden">目前這個章節尚無已核實題目。</p>
 </section>
 <section class="panel">
-<h2>題目來源與使用說明</h2>
-<div class="source-grid">
-<div class="source-card"><h3>自編段考練習</h3><p class="muted">目前內建的是依翰林九上第三、四章課綱概念編寫的原創題，不是歷屆考卷原文。</p></div>
-<div class="source-card"><h3>歷屆會考題</h3><p class="muted">會考試題有原著作權限制，這裡不直接複製整份考卷。可透過<a href="https://cap.rcpet.edu.tw/" target="_blank" rel="noopener">國中教育會考官方網站</a>查閱公開試題。</p></div>
-<div class="source-card"><h3>各校段考題</h3><p class="muted">各校試題需有合法可使用的公開來源。你可以提供學校公開題目或自己持有的題目，我再整理成可練習的題庫。</p></div>
-</div>
+<h2>109–114 年查核進度</h2>
+<p class="small muted">以下是目前已完成核對的範圍；只有能從公開解析確認冊別章節與題號的題目才會加入上方清單。</p>
+<ul>
+<li><strong>114 年：</strong>第 10 題，第四章，已核實。</li>
+<li><strong>112 年：</strong>第 53 題，第三章相關內容，已核實。</li>
+<li><strong>109 年：</strong>第 7 題雖涉及法國大革命，但翰林解析歸在第五冊第六章「近代民主政治的發展」，不列入本次第三、四章題庫。</li>
+<li><strong>110、111、113 年：</strong>尚待逐題核對，不先猜題號或答案。</li>
+</ul>
+<div class="source"><a class="btn" href="https://kaonow.com/paper/exam/cap/" target="_blank" rel="noopener">查看 109–114 年會考原卷索引</a></div>
+</section>
+<section class="panel">
+<h2>考前提醒</h2>
+<p>目前能確認符合範圍的題目只有 2 題，並不代表歷屆考試只考過這兩題。這是第一批核對結果；接下來會繼續查 110、111、113 年，以及可公開查證的各校段考卷。數量不足就明確標示，不用自編題充數。</p>
 </section>
 </main>
-<footer>本網站為個人靜態練習工具，不使用 Supabase、登入、分析追蹤或雲端資料庫；作答結果只存在目前頁面記憶體中，重新整理即清空。</footer>
+<footer>純靜態 GitHub Pages 網頁｜不登入、不收集、不儲存作答資料</footer>
 <script>
-const questions = [
-{c:3,t:"基督教的起源與傳布",q:"基督教最初興起於羅馬帝國境內的哪一地區？",o:["阿拉伯半島","巴勒斯坦地區","印度半島","希臘半島"],a:1,e:"基督教起源於羅馬帝國統治下的巴勒斯坦地區，耶穌及其門徒在此傳播信仰。"},
-{c:3,t:"基督教的起源與傳布",q:"早期羅馬帝國曾迫害基督徒，後來哪位皇帝頒布敕令，使基督教獲得合法地位？",o:["君士坦丁","屋大維","查理曼","查士丁尼"],a:0,e:"君士坦丁大帝於西元313年頒布米蘭敕令，承認基督教的合法地位。"},
-{c:3,t:"基督教的發展",q:"西羅馬帝國滅亡後，基督宗教在西歐社會的重要影響，最適合以下列何者說明？",o:["完全取代各地政治組織","成為凝聚信仰與文化的重要力量","禁止所有古典文化流傳","使歐洲各國立即統一"],a:1,e:"中古時期教會在信仰、教育、文化及政治生活上都具有重要影響，但並未讓歐洲形成單一國家。"},
-{c:3,t:"伊斯蘭教的興起與擴張",q:"伊斯蘭教的創始者是誰？",o:["耶穌","釋迦牟尼","穆罕默德","摩西"],a:2,e:"穆罕默德在阿拉伯半島傳播伊斯蘭教，並促成阿拉伯部落的團結。"},
-{c:3,t:"伊斯蘭教的興起與擴張",q:"伊斯蘭教徒每日禮拜時面向麥加，麥加位於現今哪一地區？",o:["阿拉伯半島","印度半島","伊比利半島","巴爾幹半島"],a:0,e:"麥加位於阿拉伯半島西部，是伊斯蘭教的重要聖地。"},
-{c:3,t:"伊斯蘭文化",q:"中世紀阿拉伯帝國的學者翻譯、保存並發展古希臘學術成果，這對歐洲產生何種影響？",o:["阻止歐洲接觸古典知識","促進知識交流，成為日後歐洲學術發展的來源之一","使歐洲放棄所有宗教","直接造成羅馬帝國復興"],a:1,e:"阿拉伯世界保存、翻譯並發展多種古典知識，透過交流影響歐洲的學術與文化。"},
-{c:4,t:"文藝復興",q:"文藝復興最早興起於義大利，主要原因之一是當地哪些條件較為有利？",o:["城市商業繁盛且富商支持藝術","完全沒有宗教勢力","工業革命已經完成","封建制度從未存在"],a:0,e:"義大利城市商業發達，累積財富的家族及統治者資助藝術家與學者，促成文藝復興。"},
-{c:4,t:"文藝復興",q:"文藝復興強調人文主義，其主要精神為何？",o:["只重視神學，排斥世俗生活","重視人的價值、理性與現世生活","主張停止藝術創作","反對研究古希臘羅馬文化"],a:1,e:"人文主義重視人的尊嚴、能力與現世生活，並重新研究古希臘羅馬文化。"},
-{c:4,t:"文藝復興",q:"下列哪一項最能代表文藝復興時期藝術的特色？",o:["完全不描繪人物","運用透視法並重視人體比例","只允許使用幾何圖形","全面禁止世俗題材"],a:1,e:"文藝復興藝術重視寫實、透視、人體比例與自然觀察。"},
-{c:4,t:"宗教改革",q:"馬丁路德提出批評教會的主張，成為宗教改革的重要開端。他最主要反對當時教會的哪種作法？",o:["翻譯聖經","販售贖罪券","設立修道院","舉行宗教儀式"],a:1,e:"馬丁路德反對教會販售贖罪券等作法，並提出信仰與救贖的主張。"},
-{c:4,t:"宗教改革",q:"宗教改革後，歐洲基督宗教出現多個新教派。下列何者是宗教改革的重要結果？",o:["歐洲所有國家改信同一教派","基督宗教世界的分裂更加明顯","教宗成為神聖羅馬皇帝","伊斯蘭教在歐洲消失"],a:1,e:"宗教改革促成路德宗、喀爾文宗、英國國教等教派發展，改變歐洲宗教版圖。"},
-{c:4,t:"歐洲海外擴張",q:"十五世紀末，歐洲航海者積極向海外探索，其重要動機不包括下列何者？",o:["尋找香料與貴重商品","尋找通往亞洲的新航路","傳播基督宗教","建立全球性的民主選舉制度"],a:3,e:"海外探索的動機包括貿易、傳教及國家競爭，並非建立現代民主選舉制度。"},
-{c:4,t:"歐洲海外擴張",q:"哥倫布於1492年航行抵達美洲，這件事對世界歷史的重要影響為何？",o:["促進歐亞非美洲之間更頻繁的交流","結束所有殖民活動","使美洲原住民人口立即增加","讓歐洲停止海外貿易"],a:0,e:"歐洲航海活動促成跨大西洋交流，也帶來殖民統治、疾病傳播與原住民族社會的重大衝擊。"},
-{c:4,t:"歐洲海外擴張",q:"歐洲殖民勢力進入美洲後，原住民族人口大幅減少的重要原因之一為何？",o:["完全自願遷往歐洲","外來疾病、戰爭與殖民剝削","氣候突然變成極地","停止所有農業活動"],a:1,e:"外來疾病、戰爭、強迫勞動及殖民剝削等因素，造成美洲原住民族社會嚴重衝擊。"},
-{c:4,t:"多元世界的互動",q:"大航海時代後，歐洲、美洲、非洲與亞洲之間的聯繫增加。下列哪個現象最能反映這種全球交流？",o:["各地完全隔絕","動植物、人口、商品與疾病跨洲流動","所有地區使用相同語言","各地經濟活動停止"],a:1,e:"跨洲交流帶來作物、人口、商品與疾病的移動，也改變各地社會與經濟。"},
-{c:4,t:"綜合判讀",q:"某歷史資料提到：藝術家開始研究人體比例、透視法，學者重新閱讀古希臘羅馬作品。這段描述最可能與哪個時代有關？",o:["文藝復興","十字軍東征","工業革命","冷戰"],a:0,e:"重視古典文化、人文精神與寫實藝術，是文藝復興的重要特色。"}
-,{c:3,t:"基督教的發展",q:"西元四世紀羅馬帝國對基督教政策的改變，哪一敘述正確？",o:["基督教被全面禁止","基督教逐漸取得合法地位並獲皇帝支持","羅馬帝國改信伊斯蘭教","基督教立即成為印度主要宗教"],a:1,e:"君士坦丁頒布米蘭敕令後，基督教取得合法地位，之後在羅馬帝國的地位逐漸提升。"},
-{c:3,t:"基督教的發展",q:"東羅馬帝國（拜占庭帝國）以哪座城市為首都？",o:["羅馬","君士坦丁堡","耶路撒冷","亞歷山卓"],a:1,e:"君士坦丁將帝國重心轉向拜占庭，改建為君士坦丁堡，成為東羅馬帝國的首都。"},
-{c:3,t:"基督教的發展",q:"中古西歐修道院除了宗教活動外，還常扮演哪種角色？",o:["保存抄寫典籍與提供教育","主持民主選舉","管理印度洋貿易","發明蒸汽機"],a:0,e:"修道院保存、抄寫典籍，也提供教育與救濟，是中古西歐文化傳承的重要場所。"},
-{c:3,t:"基督教的發展",q:"東、西方基督教會在十一世紀正式分裂，形成哪兩大教會？",o:["天主教與東正教","路德宗與喀爾文宗","佛教與道教","遜尼派與什葉派"],a:0,e:"1054年東西教會分裂，西方以羅馬教宗為中心，東方則發展為東正教傳統。"},
-{c:3,t:"伊斯蘭教的興起與擴張",q:"伊斯蘭教興起的背景，與哪個地區的商業活動密切相關？",o:["阿拉伯半島的商業城市與商路","北歐漁村","南美洲高原","澳洲內陸"],a:0,e:"阿拉伯半島位於亞非交通要衝，商業往來頻繁，麥加是重要商業與宗教中心。"},
-{c:3,t:"伊斯蘭教的興起與擴張",q:"穆罕默德由麥加遷往麥地那的事件，在伊斯蘭教史上稱為什麼？",o:["文藝復興","希吉拉（遷徙）","十字軍東征","宗教改革"],a:1,e:"穆罕默德於622年遷往麥地那，稱為希吉拉，也是伊斯蘭曆紀元的起點。"},
-{c:3,t:"伊斯蘭教的興起與擴張",q:"伊斯蘭教的經典是下列何者？",o:["新約聖經","古蘭經","吠陀經","論語"],a:1,e:"《古蘭經》是伊斯蘭教的重要經典，被視為真主啟示的記錄。"},
-{c:3,t:"伊斯蘭文化",q:"伊斯蘭文化在數學領域的發展，對後世影響深遠。下列哪一項與其傳播有關？",o:["印度數字與代數知識","羅馬共和制度","蒸汽機技術","活字印刷術的發明"],a:0,e:"阿拉伯學者吸收並傳播印度數字與數學知識，對後來歐洲數學發展有重要影響。"},
-{c:3,t:"伊斯蘭文化",q:"下列哪一項最能說明中世紀伊斯蘭世界的文化特色？",o:["拒絕與其他文明交流","融合並發展希臘、波斯、印度等地知識","只使用拉丁文","全面禁止科學研究"],a:1,e:"伊斯蘭世界位於多個文明交流地帶，吸收並發展不同地區的學術成果。"},
-{c:3,t:"伊斯蘭教的興起與擴張",q:"伊斯蘭勢力曾擴張至北非與伊比利半島。伊比利半島大致是今日哪兩國所在？",o:["西班牙、葡萄牙","法國、德國","義大利、希臘","瑞典、挪威"],a:0,e:"伊比利半島位於歐洲西南部，主要包括今日西班牙與葡萄牙。"},
-{c:3,t:"宗教與文化交流",q:"十字軍東征期間，歐洲與東地中海世界的接觸增加，可能帶來哪種影響？",o:["促進商品與知識交流","讓歐洲完全停止貿易","使地中海從此封閉","立即建立歐洲聯邦"],a:0,e:"十字軍東征雖以宗教與軍事衝突為主，也增加歐洲與東地中海地區的接觸及交流。"},
-{c:3,t:"綜合判讀",q:"某地同時出現清真寺、阿拉伯文學術著作，以及印度數學知識的傳播。最可能反映哪個文化圈的發展？",o:["伊斯蘭文化圈","古埃及文化圈","印加文化圈","維京文化圈"],a:0,e:"清真寺、阿拉伯文與數學知識的交流，都是伊斯蘭文明的重要線索。"},
-{c:4,t:"文藝復興",q:"文藝復興一詞中的「復興」，主要是指重新重視哪個時期的文化？",o:["古希臘羅馬文化","史前洞穴文化","工業革命文化","二十世紀流行文化"],a:0,e:"文藝復興學者重新研究古希臘羅馬的文學、哲學與藝術。"},
-{c:4,t:"文藝復興",q:"文藝復興時期的達文西，除了繪畫，也涉獵工程與科學。這反映何種精神？",o:["重視觀察、理性與多方面探索","反對所有自然研究","只接受傳統權威","主張藝術不得描繪自然"],a:0,e:"達文西展現文藝復興時期對人的能力、自然觀察與知識探索的重視。"},
-{c:4,t:"文藝復興",q:"下列哪位藝術家以《蒙娜麗莎》聞名？",o:["達文西","米開朗基羅","拉斐爾","馬丁路德"],a:0,e:"《蒙娜麗莎》是達文西的代表作之一。"},
-{c:4,t:"文藝復興",q:"米開朗基羅創作的《大衛像》最能表現文藝復興藝術的哪種特色？",o:["重視人體比例與古典美感","完全抽象不描繪人體","只描繪機械設備","拒絕使用雕刻技術"],a:0,e:"《大衛像》呈現人體結構、比例與古典藝術理想，是文藝復興雕刻代表作。"},
-{c:4,t:"文藝復興",q:"文藝復興時期的文學家彼特拉克，常被視為哪種思想的重要代表？",o:["人文主義","重商主義","共產主義","法西斯主義"],a:0,e:"彼特拉克推動古典文學研究，重視人的情感與價值，是早期人文主義代表。"},
-{c:4,t:"宗教改革",q:"馬丁路德於1517年提出《九十五條論綱》，主要針對當時教會的哪個問題？",o:["贖罪券等教會弊端","禁止航海探索","廢除所有大學","反對使用印刷術"],a:0,e:"馬丁路德批判贖罪券等教會弊端，通常以1517年《九十五條論綱》作為宗教改革的重要起點。"},
-{c:4,t:"宗教改革",q:"宗教改革能迅速傳播，與哪項技術的普及有密切關係？",o:["活字印刷術","蒸汽火車","電報","汽車"],a:0,e:"印刷術使論述與聖經譯本更容易大量流通，促進宗教改革思想傳播。"},
-{c:4,t:"宗教改革",q:"馬丁路德主張信徒可透過信仰得救，並重視哪一依據？",o:["聖經與個人信仰","教會販售的贖罪券","國王的血統","商人的財富"],a:0,e:"路德強調因信稱義，並主張聖經在信仰上具有重要權威。"},
-{c:4,t:"宗教改革",q:"英國國教成立與哪位國王的政策最有關？",o:["亨利八世","路易十四","查理曼","腓特烈大帝"],a:0,e:"亨利八世與羅馬教廷決裂，推動英國教會脫離教宗控制，形成英國國教。"},
-{c:4,t:"宗教改革",q:"天主教面對宗教改革，推動內部改革並整頓教會，這段歷史常稱為什麼？",o:["天主教改革（反宗教改革）","文藝復興","地理大發現","工業革命"],a:0,e:"天主教改革回應新教興起，整頓教會並強化傳教與教育等工作。"},
-{c:4,t:"宗教改革",q:"耶穌會在天主教改革時期扮演重要角色，其活動主要包括哪一項？",o:["教育與海外傳教","推動宗教自由選舉制度","建立伊斯蘭帝國","發動工業革命"],a:0,e:"耶穌會重視教育、學術與海外傳教，是天主教改革的重要力量。"},
-{c:4,t:"歐洲海外擴張",q:"葡萄牙航海家達伽馬的航行成果，主要是什麼？",o:["開通由歐洲繞非洲到印度的航路","首次抵達南極","環球航行並證明地球是平的","發現澳洲內陸"],a:0,e:"達伽馬於1498年抵達印度，開通歐洲經好望角前往印度洋的航路。"},
-{c:4,t:"歐洲海外擴張",q:"麥哲倫船隊完成首次環球航行，最能說明哪件事？",o:["海洋航路連結不同大洲，世界地理認識擴大","地球表面只有一個大洲","歐洲人停止海外活動","亞洲與美洲從未有交流"],a:0,e:"麥哲倫船隊雖然麥哲倫本人未完成全程，但船隊最終完成首次環球航行。"},
-{c:4,t:"歐洲海外擴張",q:"歐洲國家在海外建立殖民地，最常見的目的之一為何？",o:["取得原料、商品與貿易利益","讓殖民地立即獨立","停止跨國商業活動","消除所有國際競爭"],a:0,e:"殖民擴張常與貿易利益、原料取得、傳教及國家競爭有關。"},
-{c:4,t:"歐洲海外擴張",q:"西班牙征服者進入美洲後，阿茲特克與印加等文明受到重大衝擊。下列何者是原因之一？",o:["軍事征服與外來疾病","美洲突然進入冰河期","所有原住民自願遷往亞洲","歐洲停止使用金屬工具"],a:0,e:"軍事征服、疾病與殖民統治等因素，使美洲原有政治與社會秩序遭受重大改變。"},
-{c:4,t:"多元世界的互動",q:"大航海時代後，馬鈴薯、玉米等美洲作物傳往歐亞非，這種跨洲作物交流通常稱為什麼？",o:["哥倫布大交換","十字軍東征","圈地運動","宗教改革"],a:0,e:"哥倫布大交換指美洲與舊大陸之間動植物、人口、疾病及文化的跨洲交流。"},
-{c:4,t:"多元世界的互動",q:"哥倫布大交換對歐洲與亞洲部分地區的飲食產生影響。下列哪組作物原產於美洲？",o:["玉米、馬鈴薯","小麥、水稻","咖啡、茶","橄欖、葡萄"],a:0,e:"玉米與馬鈴薯原產於美洲，之後傳往世界其他地區。"},
-{c:4,t:"多元世界的互動",q:"大西洋奴隸貿易與歐洲殖民美洲的種植園經濟有何關係？",o:["殖民者大量強迫非洲人到美洲勞動","非洲人自願大量移居美洲擔任統治者","奴隸貿易只發生在亞洲內陸","種植園不需要勞動力"],a:0,e:"殖民種植園需要大量勞動力，歐洲商人與殖民者參與跨大西洋奴隸貿易，造成非洲社會重大損失。"},
-{c:4,t:"多元世界的互動",q:"大航海時代的全球交流帶來新商品與作物，也造成疾病傳播及殖民剝削。這說明全球交流具有何種特性？",o:["同時帶來多方面影響，不全然正面","只帶來好處，沒有負面影響","只影響歐洲，其他地區不受影響","所有地區因此變得完全平等"],a:0,e:"全球交流促進物種、商品與知識流動，也伴隨殖民、疾病與人口被迫遷移等負面後果。"},
-{c:4,t:"綜合判讀",q:"某歷史事件使歐洲人直接接觸美洲，並使大西洋成為重要交通路線。最可能是哪一事件？",o:["哥倫布航抵美洲","君士坦丁遷都","馬丁路德提出論綱","東西教會分裂"],a:0,e:"1492年哥倫布航抵美洲，促成歐洲與美洲之間持續且大規模的接觸。"},
-{c:4,t:"綜合判讀",q:"某學者主張研究自然應重視觀察與證據，藝術家則研究透視與人體結構。這些現象較符合哪種時代氛圍？",o:["文藝復興的人文與理性探索","中古早期封建制度建立","冷戰時期軍備競賽","新石器時代農業革命"],a:0,e:"文藝復興重視古典知識、人的能力、自然觀察與理性探索。"}
-{c:4,t:"綜合判讀",q:"若一份資料提到歐洲人繞過好望角前往印度，最可能與哪個國家的早期航海活動有關？",o:["葡萄牙","俄羅斯","瑞典","波蘭"],a:0,e:"葡萄牙積極探索非洲沿岸，達伽馬繞過好望角抵達印度，開啟歐洲經海路前往印度的重要航線。"}
-];
-let list=[],idx=0,done=0,score=0,choice=null,locked=false;
-const $=id=>document.getElementById(id);
-function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
-function updateStats(){ $("total").textContent=list.length;$("done").textContent=done;$("score").textContent=score;$("rate").textContent=done?Math.round(score/done*100)+"%":"—";$("bar").style.width=(list.length?done/list.length*100:0)+"%";}
-function start(){const c=$("chapter").value;list=questions.filter(q=>c==="all"||String(q.c)===c);if($("mode").value==="random")list=shuffle(list);idx=0;done=0;score=0;updateStats();render();}
-function render(){choice=null;locked=false;$("feedback").classList.add("hidden");$("submit").disabled=true;$("next").disabled=true;
-if(idx>=list.length){$("counter").textContent="練習完成";$("chapterTag").textContent="成績";$("stem").textContent="本次完成 "+done+" 題，答對 "+score+" 題，正確率 "+(done?Math.round(score/done*100):0)+"%。";$("options").innerHTML="";$("submit").disabled=true;$("next").textContent="再練一次";$("next").disabled=false;updateStats();return;}
-const q=list[idx];$("counter").textContent="第 "+(idx+1)+" / "+list.length+" 題";$("chapterTag").textContent="第"+q.c+"章｜"+q.t;$("stem").textContent=q.q;$("options").innerHTML="";
-q.o.forEach((s,i)=>{const b=document.createElement("button");b.className="option";b.innerHTML='<span class="letter">'+String.fromCharCode(65+i)+'</span><span></span>';b.querySelector("span:last-child").textContent=s;b.onclick=()=>{if(locked)return;choice=i;document.querySelectorAll(".option").forEach(x=>x.classList.remove("selected"));b.classList.add("selected");$("submit").disabled=false;};$("options").appendChild(b);});
-$("submit").textContent="送出答案";$("next").textContent="下一題";updateStats();}
-function submit(){if(choice===null||locked)return;locked=true;const q=list[idx],ok=choice===q.a;done++;if(ok)score++;const opts=[...document.querySelectorAll(".option")];opts.forEach((b,i)=>{b.disabled=true;if(i===q.a)b.classList.add("correct");if(i===choice&&!ok)b.classList.add("wrong");});$("feedback").className="feedback "+(ok?"good":"bad");$("feedback").innerHTML="<strong>"+(ok?"答對了！":"再記一下：正確答案是 "+String.fromCharCode(65+q.a)+"。")+"</strong><p>"+q.e+"</p>";$("submit").disabled=true;$("next").disabled=false;updateStats();}
-$("start").onclick=start;$("submit").onclick=submit;$("next").onclick=()=>{if(idx>=list.length){start();return;}idx++;render();};start();
+const buttons=[...document.querySelectorAll("[data-filter]")];
+buttons.forEach(b=>b.addEventListener("click",()=>{
+ buttons.forEach(x=>x.classList.toggle("active",x===b));
+ const f=b.dataset.filter;let shown=0;
+ document.querySelectorAll(".question").forEach(q=>{const ok=f==="all"||q.dataset.chapter===f;q.classList.toggle("hidden",!ok);if(ok)shown++;});
+ document.getElementById("empty").classList.toggle("hidden",shown>0);
+}));
 </script>
 </body>
 </html>
