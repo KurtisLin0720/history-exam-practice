@@ -1,76 +1,83 @@
 <!doctype html>
-<html lang="zh-Hant">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#101827">
-<title>歷屆歷史題｜翰林九上第三、四章</title>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101827"><title>歷史段考挑戰題｜翰林九上 L3–L4</title>
 <style>
-:root{color-scheme:dark;--bg:#0b1220;--panel:#121d30;--panel2:#18263c;--line:#2b3b55;--text:#edf3ff;--muted:#a8b7cf;--blue:#7db5ff;--green:#7ee0b0;--gold:#ffd58a}
+:root{color-scheme:dark;--bg:#0b1220;--panel:#121d30;--panel2:#18263c;--line:#2b3b55;--text:#edf3ff;--muted:#a8b7cf;--blue:#7db5ff;--green:#7ee0b0;--red:#ff9b9b;--gold:#ffd58a}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#182a46 0,#0b1220 55%);color:var(--text);font:16px/1.7 system-ui,-apple-system,"Noto Sans TC",sans-serif}
-header,main{max-width:900px;margin:auto}header{padding:30px 18px 18px}.eyebrow{color:var(--blue);font-size:.85rem;letter-spacing:.12em;font-weight:800}h1{font-size:clamp(1.8rem,5vw,2.5rem);line-height:1.2;margin:.5rem 0}.sub{color:var(--muted);margin:0}
+header,main{max-width:940px;margin:auto}header{padding:30px 18px 20px}.eyebrow{color:var(--blue);font-size:.85rem;letter-spacing:.12em;font-weight:800}h1{font-size:clamp(1.8rem,5vw,2.6rem);line-height:1.2;margin:.5rem 0}.sub{color:var(--muted);margin:0}
 main{padding:0 16px 50px}.panel{background:rgba(18,29,48,.96);border:1px solid var(--line);border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 14px 36px #0003}
-.notice{border-left:4px solid var(--gold);color:var(--muted)}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
-button,a.btn{font:inherit;color:var(--text);background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:10px 14px;text-decoration:none;cursor:pointer}
-button.active{background:#24466e;border-color:var(--blue)}.muted{color:var(--muted)}.tag{display:inline-block;border:1px solid #42618a;border-radius:999px;padding:2px 9px;color:var(--blue);font-size:.8rem;margin-right:6px}
-h2{font-size:1.2rem;margin:0 0 10px}.question{border-top:1px solid var(--line);padding:16px 0}.question:first-child{border-top:0}.answer{color:var(--green);font-weight:800}.source{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.small{font-size:.9rem}.hidden{display:none!important}
-footer{color:var(--muted);font-size:.85rem;text-align:center;padding:20px}
-</style>
-</head>
-<body>
-<header><div class="eyebrow">HISTORY EXAM ARCHIVE · 109–114</div><h1>歷屆歷史題</h1><p class="sub">翰林九上第五冊｜第三章「普世宗教的發展」・第四章「近代歐洲的興起」</p></header>
+.toolbar{display:flex;gap:9px;flex-wrap:wrap;align-items:center}.toolbar label{color:var(--muted);font-size:.9rem}
+select,button{font:inherit;color:var(--text);background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:10px 13px}button{cursor:pointer}button:disabled{opacity:.45;cursor:not-allowed}
+.primary{background:#24466e;border-color:var(--blue)}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:14px}.stat{background:var(--panel2);padding:10px;border-radius:12px;text-align:center}.stat b{display:block;font-size:1.35rem}.muted{color:var(--muted)}.tag{display:inline-block;border:1px solid #42618a;border-radius:999px;padding:2px 9px;color:var(--blue);font-size:.8rem;margin-right:6px}
+.progress{height:7px;background:#26364d;border-radius:20px;overflow:hidden;margin-top:12px}.progress span{display:block;height:100%;background:var(--blue);width:0;transition:width .2s}
+#stem{font-size:1.12rem;font-weight:650;white-space:pre-wrap}.options{display:grid;gap:9px;margin:18px 0}.option{width:100%;text-align:left;display:flex;gap:12px;align-items:flex-start;padding:13px;border-radius:13px;background:#17243a}.option.selected{border-color:var(--blue);background:#203a5b}.option.correct{border-color:var(--green);background:#16372f}.option.wrong{border-color:var(--red);background:#40252d}.letter{font-weight:900;color:var(--blue);min-width:22px}
+.feedback{border-radius:13px;padding:14px;margin-top:14px;background:#17243a}.feedback.good{border:1px solid var(--green)}.feedback.bad{border:1px solid var(--red)}.hidden{display:none!important}
+.actions{display:flex;gap:9px;flex-wrap:wrap}.hint{border-left:4px solid var(--gold);color:var(--muted)}footer{text-align:center;color:var(--muted);font-size:.85rem;padding:22px}
+@media(max-width:520px){.stats{grid-template-columns:repeat(2,1fr)}header{padding-top:24px}.panel{padding:15px}}
+</style></head><body>
+<header><div class="eyebrow">HISTORY · CHALLENGE MODE</div><h1>歷史段考挑戰題</h1><p class="sub">翰林九上第五冊｜第三、四章｜高難度自編 40 題</p></header>
 <main>
-<section class="panel notice"><strong>題目來源說明</strong><br>這個頁面只把已核對過的真實會考題列為「歷屆題」。為避免誤植與著作權問題，這裡提供原卷年度、題號、考點摘要、官方答案與原卷連結；請點原卷查看完整題幹、圖片及選項。未核實的題目不會湊數，也不會把自編題標成歷屆題。</section>
-<div class="toolbar" role="group" aria-label="章節篩選"><button class="active" data-filter="all">全部已核實</button><button data-filter="3">第三章</button><button data-filter="4">第四章</button></div>
+<section class="panel hint"><strong>挑戰模式</strong><br>題目以史料判讀、跨概念整合、因果推論為主。所有題目均為自編練習，並非歷屆考題。選答案後送出，才會顯示正解與解析。</section>
 <section class="panel">
-<h2>已核實的歷屆題 <span class="tag">2 題</span></h2>
-<div id="questions">
-<article class="question" data-chapter="3">
-<div class="small muted">112 年國中教育會考・社會科第 53 題</div>
-<h3>拜占庭與鄂圖曼帝國的宗教、首都變遷</h3>
-<p>考點摘要：從城市的地理位置、歷史建築與宗教遺產，辨識曾先後作為拜占庭帝國及鄂圖曼帝國首都的城市。</p>
-<p><span class="tag">第三章</span><span class="tag">基督宗教與伊斯蘭世界</span></p>
-<p class="answer">官方答案：D（伊斯坦堡）</p>
-<p class="small muted">判斷關鍵：1453 年鄂圖曼帝國攻陷君士坦丁堡，之後該城逐漸以伊斯坦堡之名為人熟知。</p>
-<div class="source"><a class="btn" href="https://public.ehanlin.com.tw/pre-exam/cap/112%E6%9C%83%E8%80%83%E7%A4%BE%E6%9C%83%E8%A7%A3%E6%9E%90.pdf" target="_blank" rel="noopener">翰林官方解析 PDF</a><a class="btn" href="https://kaonow.com/paper/exam/cap/" target="_blank" rel="noopener">歷屆試題索引</a></div>
-</article>
-<article class="question" data-chapter="4">
-<div class="small muted">114 年國中教育會考・社會科第 10 題</div>
-<h3>宗教改革與馬丁路德的主張</h3>
-<p>考點摘要：根據諷刺教會販售贖罪券的木刻版畫，判斷作者對羅馬教會的批判立場，以及宗教改革所提出的信仰主張。</p>
-<p><span class="tag">第四章</span><span class="tag">宗教改革</span></p>
-<p class="answer">官方答案：B（支持路德教派所提出的因信得救主張）</p>
-<p class="small muted">判斷關鍵：反對以販售贖罪券牟利，並強調信仰與救贖的關係，是宗教改革的重要訴求。</p>
-<div class="source"><a class="btn" href="https://public.ehanlin.com.tw/pre-exam/cap/114%E6%9C%83%E8%80%83%E7%A4%BE%E6%9C%83%E8%A7%A3%E6%9E%90.pdf" target="_blank" rel="noopener">翰林官方解析 PDF</a><a class="btn" href="https://kaonow.com/paper/exam/cap/" target="_blank" rel="noopener">歷屆試題索引</a></div>
-</article>
-</div>
-<p id="empty" class="muted hidden">目前這個章節尚無已核實題目。</p>
+<div class="toolbar"><label>章節 <select id="chapter"><option value="all">第三、四章</option><option value="3">第三章：普世宗教的發展</option><option value="4">第四章：近代歐洲的興起</option></select></label><label>順序 <select id="mode"><option value="random">隨機出題</option><option value="sequence">依序出題</option></select></label><button id="start" class="primary">開始／重新測驗</button></div>
+<div class="stats"><div class="stat"><span class="muted">題數</span><b id="total">40</b></div><div class="stat"><span class="muted">已作答</span><b id="done">0</b></div><div class="stat"><span class="muted">答對</span><b id="score">0</b></div><div class="stat"><span class="muted">正確率</span><b id="rate">—</b></div></div><div class="progress"><span id="bar"></span></div>
 </section>
 <section class="panel">
-<h2>109–114 年查核進度</h2>
-<p class="small muted">以下是目前已完成核對的範圍；只有能從公開解析確認冊別章節與題號的題目才會加入上方清單。</p>
-<ul>
-<li><strong>114 年：</strong>第 10 題，第四章，已核實。</li>
-<li><strong>112 年：</strong>第 53 題，第三章相關內容，已核實。</li>
-<li><strong>109 年：</strong>第 7 題雖涉及法國大革命，但翰林解析歸在第五冊第六章「近代民主政治的發展」，不列入本次第三、四章題庫。</li>
-<li><strong>110、111、113 年：</strong>尚待逐題核對，不先猜題號或答案。</li>
-</ul>
-<div class="source"><a class="btn" href="https://kaonow.com/paper/exam/cap/" target="_blank" rel="noopener">查看 109–114 年會考原卷索引</a></div>
+<div class="toolbar"><span id="counter" class="muted"></span><span id="chapterTag" class="tag"></span></div>
+<div id="stem"></div><div id="options" class="options"></div>
+<div class="actions"><button id="submit" class="primary" disabled>送出答案</button><button id="next" disabled>下一題</button></div>
+<div id="feedback" class="feedback hidden"></div>
 </section>
-<section class="panel">
-<h2>考前提醒</h2>
-<p>目前能確認符合範圍的題目只有 2 題，並不代表歷屆考試只考過這兩題。這是第一批核對結果；接下來會繼續查 110、111、113 年，以及可公開查證的各校段考卷。數量不足就明確標示，不用自編題充數。</p>
-</section>
-</main>
-<footer>純靜態 GitHub Pages 網頁｜不登入、不收集、不儲存作答資料</footer>
+<section class="panel"><h2>本次作答提醒</h2><p class="muted">遇到史料題時，先找出時間、地點、人物與制度線索，再判斷選項是否超出史料能支持的範圍。小心「完全、全部、立即、唯一」等過度絕對的敘述。</p></section>
+</main><footer>純靜態 GitHub Pages｜不登入、不收集、不儲存作答資料</footer>
 <script>
-const buttons=[...document.querySelectorAll("[data-filter]")];
-buttons.forEach(b=>b.addEventListener("click",()=>{
- buttons.forEach(x=>x.classList.toggle("active",x===b));
- const f=b.dataset.filter;let shown=0;
- document.querySelectorAll(".question").forEach(q=>{const ok=f==="all"||q.dataset.chapter===f;q.classList.toggle("hidden",!ok);if(ok)shown++;});
- document.getElementById("empty").classList.toggle("hidden",shown>0);
-}));
-</script>
-</body>
-</html>
+const questions=[{c:3,t:"基督宗教與羅馬帝國",q:"某地出土四世紀初的基督徒墓葬，墓室內仍可見遭破壞的宗教符號；同一城市稍後卻出現由皇帝資助興建的大型教堂。最合理的歷史解釋為何？",o:["羅馬帝國由迫害基督教逐步轉向承認並支持基督教","基督教在羅馬帝國滅亡後才首次出現","皇帝支持基督教代表帝國已改信伊斯蘭教","教會已完全取代羅馬帝國的行政制度"],a:0,e:"313 年米蘭敕令使基督教取得合法地位，後來皇帝支持程度提高；材料呈現政策轉變。"},
+{c:3,t:"基督宗教與中古西歐",q:"中古西歐某修道院同時設有抄寫室、學校與救濟場所。若要解釋它在當時社會的影響，下列何者最適當？",o:["只負責軍事防禦，與文化傳承無關","兼具宗教、教育、典籍保存及社會救濟功能","主要負責管理地中海所有商港","代表西歐已形成中央集權民族國家"],a:1,e:"修道院是中古西歐宗教生活中心，也保存典籍、提供教育與救濟。"},
+{c:3,t:"基督宗教與中古西歐",q:"西羅馬帝國滅亡後，西歐各地政治勢力分散，但教會仍能跨越不同王國維持共同信仰與拉丁文化。這最能說明教會具有何種作用？",o:["使各王國立即合併為單一帝國","成為跨地域的精神與文化整合力量","完全消除地方封建勢力","使東羅馬帝國失去正統地位"],a:1,e:"政治分裂之下，教會提供共同宗教與文化框架，但不等於政治統一。"},
+{c:3,t:"基督宗教與中古歐洲",q:"東西教會分裂後，西方教會以羅馬教宗為中心，東方教會則以君士坦丁堡為重要中心。此分裂最適合放在何種背景理解？",o:["基督宗教內部長期累積的政治、文化與教義差異","宗教改革後新教與天主教的分裂","伊斯蘭教傳入歐洲後全面取代基督教","十字軍東征結束後才首次出現教會差異"],a:0,e:"1054 年東西教會分裂，與語言文化、教會權威及政治因素長期累積有關。"},
+{c:3,t:"伊斯蘭教興起",q:"穆罕默德在麥加傳教時遭遇反對，後遷往麥地那並逐步建立共同體。若從社會背景分析，何者最能解釋新信仰可能引發的衝突？",o:["新信仰挑戰既有多神信仰及麥加部分群體的利益","新信仰主張完全停止商業活動","新信仰要求阿拉伯人改用拉丁語","新信仰反對所有形式的社群組織"],a:0,e:"伊斯蘭教的一神信仰與社會主張，挑戰麥加既有宗教秩序及部分商業利益。"},
+{c:3,t:"伊斯蘭教興起",q:"伊斯蘭曆以希吉拉為紀元起點。若某史料記載穆罕默德離開麥加前往麥地那，這件事的重要性何在？",o:["象徵阿拉伯半島正式被羅馬帝國征服","代表穆斯林共同體建立與發展的重要轉折","代表十字軍東征開始","象徵伊斯蘭教改採多神信仰"],a:1,e:"622 年希吉拉是伊斯蘭共同體發展的重要事件，也是伊斯蘭曆紀元起點。"},
+{c:3,t:"伊斯蘭文明交流",q:"阿拉伯學者翻譯希臘哲學著作，也吸收印度數學知識，並將成果傳播至其他地區。下列哪個推論最合理？",o:["伊斯蘭文明主要透過隔絕外界維持發展","伊斯蘭文明在跨區域交流中吸收、整理並再創造知識","歐洲文藝復興完全不受其他文明影響","古典希臘知識在羅馬帝國滅亡後完全消失"],a:1,e:"伊斯蘭文明在翻譯、保存與發展多地知識方面扮演重要角色。"},
+{c:3,t:"伊斯蘭文明交流",q:"中世紀伊斯蘭勢力曾統治伊比利半島部分地區。若研究當地建築、數學詞彙與農業技術，可以推論何者？",o:["不同宗教與文化群體的接觸可能促進知識與技術交流","伊比利半島與地中海世界完全隔絕","當地居民全部改信同一宗教","伊斯蘭文明只留下軍事影響，沒有文化遺產"],a:0,e:"伊比利半島是不同文化接觸地帶，留下建築、知識與技術交流的痕跡。"},
+{c:3,t:"十字軍東征",q:"十字軍東征以宗教理由發動，但其過程也涉及商業利益、政治權力與東地中海貿易。若只用「宗教戰爭」解釋全部過程，最大的問題是什麼？",o:["忽略了宗教以外的政治與經濟動機","錯把十字軍視為古代羅馬軍隊","忽略基督宗教與伊斯蘭教都存在於歐洲","把文藝復興誤認為十字軍的一部分"],a:0,e:"歷史事件常由多種因素交互造成，單一宗教因素不足以解釋全部。"},
+{c:3,t:"宗教與政治權力",q:"某中古歐洲君主希望藉由教會加強統治正當性，教會則希望君主支持其政治與宗教地位。此現象最能說明何者？",o:["中古歐洲宗教與政治權力彼此完全分離","教會與世俗統治者可能互相合作，也可能發生權力衝突","君主必須由穆斯林選出","教會沒有任何社會影響力"],a:1,e:"中古歐洲教會與君主關係複雜，既合作也競爭。"},
+{c:3,t:"伊斯蘭與基督宗教",q:"若比較中世紀耶路撒冷的歷史地位，最能解釋它長期成為不同宗教群體關注焦點的原因是？",o:["它是基督宗教、伊斯蘭教及猶太教的重要聖地","它是所有宗教唯一承認的首都","它從未受到任何帝國統治","它位於阿拉伯半島最南端"],a:0,e:"耶路撒冷對三大一神教均有重要宗教意義。"},
+{c:3,t:"宗教文化判讀",q:"一份旅行記同時記載清真寺、古希臘哲學譯本，以及使用印度數字的商人。若判斷其最可能描寫的文化環境，何者最合理？",o:["中世紀伊斯蘭世界的城市","中古北歐維京村落","古典時期斯巴達城邦","近代工業革命後的英國工廠"],a:0,e:"清真寺、翻譯希臘知識及印度數字傳播，皆與伊斯蘭世界的文化交流相符。"},
+{c:3,t:"歷史解釋方法",q:"某教科書將中世紀歐洲稱為「黑暗時代」，但研究者指出當時修道院保存典籍、城市商業逐步發展。下列何者是較嚴謹的修正？",o:["中古時期完全沒有知識與經濟活動","應避免用單一標籤概括長時段、多地區的複雜發展","所有歐洲地區在同一時間以相同速度發展","修道院的存在證明當時已完成文藝復興"],a:1,e:"歷史概括需留意地區與時期差異，避免以單一標籤簡化複雜現象。"},
+{c:4,t:"文藝復興",q:"某城市富商資助畫家、雕刻家與學者，作品大量描繪人體、自然景物及古典神話。這種現象最能反映哪項條件？",o:["城市商業財富與贊助制度支持文化創作","封建農奴制度完全消失","宗教信仰在歐洲已不復存在","歐洲已進入工業化社會"],a:0,e:"義大利城市商業繁盛，富商與統治者贊助藝術，是文藝復興的重要條件。"},
+{c:4,t:"文藝復興",q:"文藝復興藝術家研究人體解剖、透視與光影，但許多作品仍以聖經故事為題材。這種情況說明何者？",o:["人文主義興起代表宗教題材立即消失","文藝復興既承襲基督宗教傳統，也強調人的觀察與表現","藝術家已全面反對宗教","文藝復興只發生在教會內部"],a:1,e:"文藝復興並非反宗教運動，宗教題材仍多，但呈現方式更重視人的形象與自然觀察。"},
+{c:4,t:"文藝復興",q:"研究者比較中世紀與文藝復興時期的人物畫，發現後者更重視人體比例、立體感及個人神情。最適合用哪個概念解釋？",o:["人文主義與古典藝術再評價","重商主義與殖民經濟","封建制度與莊園自治","宗教改革與因信稱義"],a:0,e:"人文主義重視人的價值，藝術家重新研究古典作品與自然。"},
+{c:4,t:"文藝復興",q:"某學者主張應直接閱讀古典文獻、研究原文，而非只依賴後世註解。此作法最符合文藝復興哪種精神？",o:["回到古典原典，重新探索人的知識與能力","拒絕所有古代思想","以教會權威禁止學術研究","以海外貿易取代文化活動"],a:0,e:"文藝復興學者重視古典原典，重新檢視知識與人的能力。"},
+{c:4,t:"文藝復興",q:"文藝復興先在義大利城市興起，再傳播至歐洲其他地區。若解釋其傳播，何者最合理？",o:["印刷術、學者往來與王公貴族贊助促進思想流通","所有歐洲國家同時由同一位君主下令推動","十字軍東征使歐洲禁止跨區交流","工業革命提供了最早的傳播條件"],a:0,e:"城市交流、印刷術與贊助網絡推動文藝復興由義大利擴散。"},
+{c:4,t:"宗教改革",q:"路德批判贖罪券販售，並強調因信稱義。若要判斷這項主張挑戰了當時教會哪一種權威觀念，何者最適當？",o:["教會及其儀式、權威對救贖途徑的掌握","君主對海外貿易的控制","商人對城市公會的控制","大學對自然科學研究的管理"],a:0,e:"路德強調信仰與聖經權威，挑戰教會以贖罪券等方式掌握救贖的作法。"},
+{c:4,t:"宗教改革",q:"印刷術普及後，宗教改革論述與聖經譯本更容易流通。下列何者最能說明技術與思想變遷的關係？",o:["技術降低資訊傳播成本，使既有爭議更容易擴散","印刷術直接決定所有人接受相同信仰","宗教改革完全由印刷工人發動","印刷術使歐洲各國立即統一"],a:0,e:"印刷術加速文本傳播，擴大宗教改革思想影響，但不是唯一原因。"},
+{c:4,t:"宗教改革",q:"英國國王與羅馬教廷決裂並建立英國國教，與路德在德意志地區的改革相比，兩者最重要的差異為何？",o:["英國國教的形成與王權及政治權力關係特別密切","英國國教完全不涉及宗教問題","路德改革是由英國國王發起","英國國教主張恢復多神信仰"],a:0,e:"英國宗教改革與亨利八世的王權、婚姻及教廷關係密切。"},
+{c:4,t:"宗教改革",q:"天主教推動內部改革、整頓教會並透過耶穌會加強教育與傳教。這些作為最適合被理解為何者？",o:["天主教改革對新教興起及教會問題的回應","文藝復興初期對古典藝術的復興","伊斯蘭帝國對歐洲的統治政策","英國工業革命的勞工改革"],a:0,e:"天主教改革既回應新教挑戰，也整頓內部並擴大教育、傳教活動。"},
+{c:4,t:"宗教改革",q:"宗教改革後，歐洲部分地區出現新教與天主教對立，政治衝突也常與宗教立場交織。這反映何種歷史現象？",o:["宗教分歧可能與國家權力及地方政治結合","宗教改革使歐洲從此沒有戰爭","各國都立即實施宗教自由","教宗直接統治所有新教國家"],a:0,e:"宗教認同常與統治權、領土及政治利益交織，形成複雜衝突。"},
+{c:4,t:"地理大發現",q:"十五世紀歐洲商人希望取得亞洲香料，卻受到既有陸路與地中海貿易環節限制。這種背景最可能促使何種行動？",o:["尋找繞過既有貿易網絡的海上航路","全面停止與亞洲交易","將首都遷往美洲","放棄造船與航海技術"],a:0,e:"尋求直接抵達亞洲的海路，是歐洲海外探險的重要經濟動機。"},
+{c:4,t:"地理大發現",q:"葡萄牙支持航海探索，達伽馬繞過好望角抵達印度。這條航路對歐洲貿易最直接的意義為何？",o:["增加歐洲經由海路直接進入印度洋貿易的可能","使地中海貿易立即完全消失","證明美洲位於亞洲東方","使葡萄牙控制所有亞洲國家"],a:0,e:"繞非洲至印度的航路，讓葡萄牙能直接參與印度洋貿易，但未立即消滅其他貿易路線。"},
+{c:4,t:"地理大發現",q:"哥倫布航抵美洲後，歐洲與美洲之間的人口、作物、動物及疾病交流增加。若從全球史角度評價，何者最完整？",o:["交流促進經濟與生態變動，也伴隨殖民、疾病與原住民社會衝擊","交流只讓歐洲受益，其他地區沒有變化","交流完全出於平等自願","交流使各地文化差異立即消失"],a:0,e:"哥倫布大交換具有多面向影響，包含作物傳播、人口流動與殖民傷害。"},
+{c:4,t:"地理大發現",q:"某地原本沒有馬鈴薯，後來馬鈴薯成為重要糧食作物。若此變化發生於歐亞大陸，最可能與哪個歷史過程有關？",o:["哥倫布大交換","東西教會分裂","十字軍東征","英國宗教改革"],a:0,e:"馬鈴薯原產美洲，跨洋傳播至歐亞與非洲是哥倫布大交換的一部分。"},
+{c:4,t:"地理大發現",q:"歐洲殖民者在美洲建立種植園，並大量引入非洲奴隸勞動。此現象最能呈現海外擴張的哪項特徵？",o:["全球貿易擴張與強迫勞動、殖民剝削同時發生","海外擴張只涉及宗教傳播","殖民地經濟完全獨立於歐洲市場","大西洋貿易沒有改變非洲社會"],a:0,e:"種植園經濟與跨大西洋奴隸貿易緊密相連，造成深遠的人口與社會影響。"},
+{c:4,t:"地理大發現",q:"麥哲倫船隊完成首次環球航行，但麥哲倫本人未能返航。若有人因此說「麥哲倫親自完成環球航行」，此說法的問題為何？",o:["混淆了航行計畫的發起者與實際完成全程的船員","忽略地球是球體的證據","把葡萄牙與西班牙視為同一國家","誤以為船隊沒有經過太平洋"],a:0,e:"麥哲倫率領遠征但途中身亡，船隊由其他船員完成環球航行。"},
+{c:4,t:"地理大發現",q:"歐洲海外擴張促使大西洋貿易重要性上升，部分地中海港口相對失去優勢。這項變化較接近哪種解釋？",o:["貿易重心隨新航路與跨洋經濟網絡而轉移","所有地中海城市立即衰敗消失","歐洲停止與亞洲往來","新航路只改變宗教版圖，未影響經濟"],a:0,e:"新航路開闢使大西洋沿岸港口與國家地位提升，貿易重心逐步轉移。"},
+{c:4,t:"跨章整合",q:"文藝復興強調人的能力與理性探索；宗教改革則批判教會部分制度與權威。若比較兩者的共同背景，何者較合理？",o:["印刷術與城市社會發展促進知識流通及思想交流","兩者皆由工業革命直接引發","兩者都主張廢除所有宗教","兩者都只在英國發生"],a:0,e:"城市發展與印刷術促進思想交流，是兩者擴散的重要條件，但兩者訴求不同。"},
+{c:4,t:"跨章整合",q:"某研究者發現十六世紀歐洲一方面宗教分裂，另一方面海外殖民與跨洲貿易擴張。這兩種現象應如何理解？",o:["同一時期可能同時發生不同領域的重大變遷，彼此不必有單一因果","宗教改革必然直接造成所有殖民活動","海外貿易擴張代表歐洲已沒有宗教衝突","兩者不可能發生在同一世紀"],a:0,e:"歷史同時性不等於單一因果；宗教、政治與經濟變遷可能並行且互相影響。"},
+{c:4,t:"跨章整合",q:"若比較中古時期的地中海交流與大航海時代的跨洋交流，哪項差異最明確？",o:["大航海時代的交流更持續地連結歐洲、非洲、美洲與亞洲，形成全球性網絡","中古時期完全沒有跨文化交流","大航海時代的交流只限於歐洲內部","兩時期的交通範圍與影響完全相同"],a:0,e:"大航海時代的跨洋航線與殖民體系使跨洲連結規模擴大。"},
+{c:4,t:"史料判讀",q:"一份十六世紀文獻批評教會販售贖罪券，並主張信徒應重視聖經。若要判斷它最可能出現於哪個歷史脈絡，何者最恰當？",o:["宗教改革及新教思想傳播","文藝復興初期的義大利城市興起","十字軍東征前夕","伊斯蘭教創立初期"],a:0,e:"批判贖罪券、強調聖經，是宗教改革的重要特徵。"},
+{c:4,t:"史料判讀",q:"某畫作採用線性透視、細緻描繪人體肌肉，人物神情也呈現個別差異。若畫作年代約十五世紀，最合理的分類為何？",o:["文藝復興藝術","中古早期拜占庭馬賽克藝術","新石器時代岩畫","十九世紀印象派"],a:0,e:"透視、人體比例與個人神情是文藝復興藝術常見特色。"},
+{c:3,t:"比較分析",q:"比較基督宗教與伊斯蘭教在中古時期的發展，下列哪項敘述最正確？",o:["兩者皆是一神信仰，並在不同時期與政治政權互動","兩者皆起源於印度","兩者都以羅馬教宗為最高領袖","兩者皆禁止任何形式的學術研究"],a:0,e:"兩者皆為一神教，但起源、經典、組織與政治發展不同。"},
+{c:4,t:"因果推論",q:"若沒有印刷術的普及，宗教改革思想仍可能出現，但其傳播速度與範圍可能不同。這種說法體現哪種因果觀？",o:["印刷術是促進傳播的重要條件，但不是思想出現的唯一原因","印刷術是宗教改革唯一原因","技術與思想變遷毫無關係","宗教改革完全由海外貿易造成"],a:0,e:"技術是重要促進因素，應避免把複雜歷史事件歸因於單一因素。"},
+{c:4,t:"整合判讀",q:"某題提供三項線索：義大利城市富商贊助藝術、學者研究古典文獻、藝術家重視透視與人體比例。三項線索共同指向何者？",o:["文藝復興","宗教改革","地理大發現","十字軍東征"],a:0,e:"城市贊助、古典研究與藝術革新共同構成文藝復興的重要特徵。"}];
+let list=[],idx=0,done=0,score=0,choice=null,locked=false;
+const $=id=>document.getElementById(id);
+function shuffle(a){const x=[...a];for(let i=x.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[x[i],x[j]]=[x[j],x[i]];}return x;}
+function stats(){$("total").textContent=list.length;$("done").textContent=done;$("score").textContent=score;$("rate").textContent=done?Math.round(score/done*100)+"%":"—";$("bar").style.width=(list.length?done/list.length*100:0)+"%";}
+function start(){const c=$("chapter").value;list=questions.filter(q=>c==="all"||String(q.c)===c);if($("mode").value==="random")list=shuffle(list);idx=0;done=0;score=0;stats();render();}
+function render(){choice=null;locked=false;$("feedback").className="feedback hidden";$("submit").disabled=true;$("next").disabled=true;
+if(idx>=list.length){$("counter").textContent="挑戰完成";$("chapterTag").textContent="成績";$("stem").textContent="本次完成 "+done+" 題，答對 "+score+" 題，正確率 "+(done?Math.round(score/done*100):0)+"%。";$("options").innerHTML="";$("submit").disabled=true;$("next").textContent="再挑戰一次";$("next").disabled=false;stats();return;}
+const q=list[idx];$("counter").textContent="第 "+(idx+1)+" / "+list.length+" 題";$("chapterTag").textContent="第"+q.c+"章｜"+q.t;$("stem").textContent=q.q;$("options").innerHTML="";
+q.o.forEach((s,i)=>{const b=document.createElement("button");b.className="option";const letter=document.createElement("span");letter.className="letter";letter.textContent=String.fromCharCode(65+i);const body=document.createElement("span");body.textContent=s;b.append(letter,body);b.onclick=()=>{if(locked)return;choice=i;document.querySelectorAll(".option").forEach(x=>x.classList.remove("selected"));b.classList.add("selected");$("submit").disabled=false;};$("options").appendChild(b);});
+$("submit").textContent="送出答案";$("next").textContent="下一題";stats();}
+function submit(){if(choice===null||locked)return;locked=true;const q=list[idx],ok=choice===q.a;done++;if(ok)score++;const opts=[...document.querySelectorAll(".option")];opts.forEach((b,i)=>{b.disabled=true;if(i===q.a)b.classList.add("correct");if(i===choice&&!ok)b.classList.add("wrong");});$("feedback").className="feedback "+(ok?"good":"bad");$("feedback").innerHTML="<strong>"+(ok?"答對了！":"再想一下：正確答案是 "+String.fromCharCode(65+q.a)+"。")+"</strong><p>"+q.e+"</p>";$("submit").disabled=true;$("next").disabled=false;stats();}
+$("start").onclick=start;$("submit").onclick=submit;$("next").onclick=()=>{if(idx>=list.length){start();return;}idx++;render();};start();
+</script></body></html>
