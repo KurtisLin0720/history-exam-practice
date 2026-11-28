@@ -14,12 +14,12 @@ select,button{font:inherit;color:var(--text);background:var(--panel2);border:1px
 .actions{display:flex;gap:9px;flex-wrap:wrap}.hint{border-left:4px solid var(--gold);color:var(--muted)}footer{text-align:center;color:var(--muted);font-size:.85rem;padding:22px}
 @media(max-width:520px){.stats{grid-template-columns:repeat(2,1fr)}header{padding-top:24px}.panel{padding:15px}}
 </style></head><body>
-<header><div class="eyebrow">EXAM PRACTICE · CHALLENGE MODE</div><h1>九上社會段考挑戰題</h1><p class="sub">翰林歷史、地理、公民第五課與第六課｜共 150 題自編練習</p></header>
+<header><div class="eyebrow">EXAM PRACTICE · CHALLENGE MODE</div><h1>九上社會＋地科段考挑戰題</h1><p class="sub">翰林歷史、地理、公民第五課與第六課＋康軒地科第五至七章｜共 225 題自編練習</p></header>
 <main>
-<section class="panel hint"><strong>本次範圍</strong><br>歷史：第五課〈多元世界的互動〉、第六課〈近代歐洲的變革〉<br>地理：第五課〈大洋洲〉、第六課〈兩極地區與全球氣候變遷〉<br>公民：第五課〈貨幣的使用〉、第六課〈國際貿易與外幣〉<br><br>共 150 題自編練習，每個單元 25 題。作答後才會顯示答案與解析；不登入、不收集、不儲存作答資料。</section>
+<section class="panel hint"><strong>本次範圍</strong><br>歷史：第五課〈多元世界的互動〉、第六課〈近代歐洲的變革〉<br>地理：第五課〈大洋洲〉、第六課〈兩極地區與全球氣候變遷〉<br>公民：第五課〈貨幣的使用〉、第六課〈國際貿易與外幣〉<br>地科（康軒）：第五章〈水與陸地〉、第六章〈板塊運動與地球歷史〉、第七章〈運動中的天體〉<br><br>共 225 題自編練習，每個單元 25 題。作答後才會顯示答案與解析；不登入、不收集、不儲存作答資料。</section>
 <section class="panel">
-<div class="toolbar"><label>範圍 <select id="chapter"><option value="all">全部單元（150 題）</option><option value="h5">歷史第五課（25 題）</option><option value="h6">歷史第六課（25 題）</option><option value="g5">地理第五課（25 題）</option><option value="g6">地理第六課（25 題）</option><option value="c5">公民第五課（25 題）</option><option value="c6">公民第六課（25 題）</option></select></label><label>順序 <select id="mode"><option value="random">隨機出題</option><option value="sequence">依序出題</option></select></label><button id="start" class="primary">開始／重新測驗</button></div>
-<div class="stats"><div class="stat"><span class="muted">題數</span><b id="total">150</b></div><div class="stat"><span class="muted">已作答</span><b id="done">0</b></div><div class="stat"><span class="muted">答對</span><b id="score">0</b></div><div class="stat"><span class="muted">正確率</span><b id="rate">—</b></div></div><div class="progress"><span id="bar"></span></div>
+<div class="toolbar"><label>範圍 <select id="chapter"><option value="all">全部單元（225 題）</option><option value="h5">歷史第五課（25 題）</option><option value="h6">歷史第六課（25 題）</option><option value="g5">地理第五課（25 題）</option><option value="g6">地理第六課（25 題）</option><option value="c5">公民第五課（25 題）</option><option value="c6">公民第六課（25 題）</option><option value="e5">地科第五章（25 題）</option><option value="e6">地科第六章（25 題）</option><option value="e7">地科第七章（25 題）</option></select></label><label>順序 <select id="mode"><option value="random">隨機出題</option><option value="sequence">依序出題</option></select></label><button id="start" class="primary">開始／重新測驗</button></div>
+<div class="stats"><div class="stat"><span class="muted">題數</span><b id="total">225</b></div><div class="stat"><span class="muted">已作答</span><b id="done">0</b></div><div class="stat"><span class="muted">答對</span><b id="score">0</b></div><div class="stat"><span class="muted">正確率</span><b id="rate">—</b></div></div><div class="progress"><span id="bar"></span></div>
 </section>
 <section class="panel">
 <div class="toolbar"><span id="counter" class="muted"></span><span id="chapterTag" class="tag"></span></div>
@@ -27,7 +27,7 @@ select,button{font:inherit;color:var(--text);background:var(--panel2);border:1px
 <div class="actions"><button id="submit" class="primary" disabled>送出答案</button><button id="next" disabled>下一題</button></div>
 <div id="feedback" class="feedback hidden"></div>
 </section>
-<section class="panel"><h2>答題提醒</h2><p class="muted">作答時先辨認題幹中的關鍵條件，再比較選項；注意區分歷史因果、地理環境與公民制度概念。</p></section>
+<section class="panel"><h2>答題提醒</h2><p class="muted">作答時先辨認題幹中的關鍵條件，再比較選項；注意區分歷史因果、地理環境、公民制度與地球科學的觀念及作用機制。</p></section>
 </main><footer>純靜態 GitHub Pages｜不登入、不收集、不儲存作答資料</footer>
 <script src="question-bank.js"></script>
 <script>
